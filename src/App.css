@@ -19,6 +19,17 @@ body {
   font-family: Apercu;
   background-color: #444647;
   color: #F5E6E6;
+
+  cursor:url(./assets/lamassu_icon.png), auto;
+}
+
+canvas {
+  cursor:url(./assets/lamassu_icon.png), auto;
+}
+
+.unity {
+  cursor:url(./assets/lamassu_icon.png), auto !important;
+
 }
 
 p,a {
@@ -27,7 +38,7 @@ p,a {
 
 a {
   text-decoration: none;
-  text-decoration: inherit;
+  color: inherit;
 }
 
 a:-webkit-any-link, a:any-link, a:-moz-any-link {
